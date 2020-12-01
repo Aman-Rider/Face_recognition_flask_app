@@ -2,7 +2,7 @@ from flask import render_template, redirect, request, url_for
 import os
 from PIL import Image
 import numpy as np
-from app.utils import pipeline_model
+from apps.utils import pipeline_model
 UPLOAD_FOLDER = 'static/uploads'
 PREDICT_FOLDER = 'static/predict'
 def base():

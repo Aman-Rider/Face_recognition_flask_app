@@ -1,5 +1,5 @@
 from flask import Flask
-from app import views
+from apps import views
 app = Flask(__name__)
 
 app.add_url_rule('/base', 'base', views.base)
