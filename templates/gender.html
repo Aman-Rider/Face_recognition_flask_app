@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+<div class="container">
+    <br>
+    <h3 class="content">Gender Classification</h3>
+</div>
+<div align='center'>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="upload">Upload to predict</label>
+        <input type="file" id="upload" name="image" required>
+        <input type="submit" value="upload & predict">
+    </form>
+</div>
+
+{% endblock %}
